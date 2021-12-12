@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Outfit:wght@300;400;600&family=Roboto:ital,wght@0,100;0,300;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background: #000;
+    color: #ccc;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.wrapper {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    font-size: 14px;
+}
+
+.nav__lista {
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.nav__item {
+    margin-left: 1rem;
+}
+
+.boton {
+    padding: 0.7rem 1rem;
+    border: none;
+    font-weight: 500;
+    background: #f1c40f;
+    cursor: pointer;
+}
+
+.header__titulo, .header__text {
+    max-width: 38rem;
+}
+
+.header__titulo {
+    margin-top: 4rem;
+    font-size: 2.7rem;
+    color: #fff;
+}
+
+.header__text {
+    margin-bottom: 4rem;
+}
+
+.logo {
+    height: auto;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.logo__img {
+    width: 6rem;
+}
+
+.logo__img--visa {
+    width: 4rem;
+}
+
+.article {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4em;
+}
+
+.article__image {
+    width: 100%;
+}
+
+.article__title {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0.5em 0;
+}
+
+.article__paragraph {
+    margin: 0;
+}
+
+.backgraund {
+    background: #576574;
+    margin: 4rem 0;
+}
+
+.text {
+    padding: 2em 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.text__title {
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.text__paragraph--margin {
+    margin-top: 0;
+}
+
+.working {
+    margin-bottom: 4rem;
+}
+
+.working__title {
+    font-size: 30px;
+    margin: 0;
+}
+
+.working__paragraph {
+    max-width: 31.25rem;
+}
+
+.footer {
+    background: #576574;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    list-style: none;
+    display: flex;
+}
+
+.icon__item {
+    margin-left: 1rem;
+}
