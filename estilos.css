@@ -22,7 +22,9 @@ body {
 }
 
 .nav__logo {
-    font-size: 14px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
 }
 
 .nav__lista {
@@ -33,6 +35,11 @@ body {
 
 .nav__item {
     margin-left: 1rem;
+}
+
+.nav__link {
+    color: #ccc;
+    text-decoration: none;
 }
 
 .boton {
@@ -149,3 +156,60 @@ body {
 .icon__item {
     margin-left: 1rem;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+    .text__title {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__titulo {
+        width: 100%;
+    }
+
+    .logo {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+    }
+
+    .article {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .text {
+        grid-template-columns: 1fr;
+    }
+
+    .text__title {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__titulo {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header__titulo {
+        font-size: 1.5rem;
+    }
+}
+
