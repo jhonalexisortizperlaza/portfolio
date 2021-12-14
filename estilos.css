@@ -15,16 +15,24 @@ body {
 }
 
 .nav {
-    margin-top: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 70px;
+    
 }
 
 .nav__logo {
     font-size: 16px;
     color: #fff;
     text-decoration: none;
+}
+
+.toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
 }
 
 .nav__lista {
@@ -188,7 +196,37 @@ body {
     .text__title {
         font-size: 1.5rem;
     }
+
+    .boton {
+        display: none;
+    }
+
+    .nav__lista {
+        flex-direction: column;
+        align-items: center;
+        background: #2c3e50;
+        position: fixed;
+        left: 0;
+        top: 56px;
+        padding: 0;
+        width: 100%;
+        height: calc(100% - 56px);
+        line-height: 80px;
+        overflow-y: auto;
+        left: 100%;
+        transition: left 0.3s;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .nav-menu_visible {
+        left: 0;
+    }
 }
+
+
 
 @media screen and (max-width: 600px) {
     .header__titulo {
